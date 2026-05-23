@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: radial-gradient(circle at top, #111827, #000000);
+}
+
+
+.calculator {
+    padding: 25px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 30px rgba(0, 255, 200, 0.08);
+}
+
+
+input {
+    width: 320px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 0 10px rgba(0, 255, 200, 0.1);
+    font-size: 36px;
+    text-align: right;
+    color: #00ffc8;  
+}
+
+
+button {
+    width: 65px;
+    height: 65px;
+    margin: 8px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+    transition: 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #00ffc8;
+    color: #000;
+}
+
+
+.A, .B, .C, .D {
+    background: rgba(0, 255, 200, 0.15);
+    color: #00ffc8;
+}
+
+.AC {
+    background: #ff4d4d;
+    color: white;
+}
+
+
+.DEL {
+    background: #ffb703;
+    color: black;
+}
+
+
+.EQ {
+    background: #00ffc8;
+    color: #000;
+}
+
+.Casio {
+    color: #00ffc8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px #00ffc8;
+}
+
+.mj, .o {
+    color: #9ca3af;
+    font-size: 14px;
+}
